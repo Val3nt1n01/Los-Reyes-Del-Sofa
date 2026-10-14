@@ -1,8 +1,4 @@
-/* ===================================================
-   PORTADA "LOS REYES DEL SOFA" - PALETA KIKURI HIROI
-   =================================================== */
 
-/* Configuración global de la página */
 * {
     box-sizing: border-box;
 }
@@ -23,7 +19,7 @@ body, html {
     background-attachment: fixed;
 }
 
-/* Caja de bienvenida (Efecto Cristal Rosa/Malva) */
+
 .contenedor {
     text-align: center;
     max-width: 480px;
@@ -39,48 +35,48 @@ body, html {
     box-shadow: 0 12px 35px rgba(61, 16, 36, 0.35); /* Sombra elegante tono vino */
 }
 
-/* Título <h1> dentro de la tarjeta */
+
 .contenedor h1 {
-    color: #521631; /* Tono vino Kikuri */
+    color: #521631; 
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 12px;
     text-shadow: 0 0 10px rgba(184, 92, 138, 0.25);
 }
 
-/* Texto <p> dentro de la tarjeta */
+
 .contenedor p {
-    color: #2a0c1a; /* Color vino oscuro para garantizar legibilidad */
+    color: #2a0c1a; 
     font-size: 1.05rem;
     line-height: 1.5;
     margin-bottom: 25px;
 }
 
-/* Botón de redirección a blog.html */
+
 .boton-redireccion {
     display: inline-block;
     padding: 12px 28px;
     
-    /* Gradiente de Vino a Malva */
+   
     background: linear-gradient(135deg, #521631 0%, #8c3f66 100%);
     color: #ffffff;
     
     font-weight: bold;
     font-size: 1rem;
     text-decoration: none;
-    border-radius: 30px; /* Bordes redondeados modernos */
+    border-radius: 30px; 
     border: 2px solid #b85c8a;
     
     box-shadow: 0 6px 18px rgba(82, 22, 49, 0.35);
     transition: all 0.3s ease;
 }
 
-/* Efecto al pasar el mouse por el botón */
+
 .boton-redireccion:hover {
-    /* Cambia a un tono dorado/ámbar brillante */
+   
     background: linear-gradient(135deg, #8c3f66 0%, #e6b84c 100%);
     color: #2a0c1a;
     border-color: #e6b84c;
-    transform: translateY(-3px) scale(1.03); /* Eleva suavemente el botón */
+    transform: translateY(-3px) scale(1.03); 
     box-shadow: 0 8px 22px rgba(230, 184, 76, 0.45);
 }
